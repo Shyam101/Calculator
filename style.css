@@ -10,7 +10,7 @@ html , body{
 
 .box{
     border: solid 2px black;
-    width: 80vh;
+    width: 90vh;
     height: 80vh;
     display: grid;
     grid-template-columns: repeat(4,25%);
@@ -35,15 +35,12 @@ html , body{
     font-weight: 600;
 }
 
-#query{
-    margin-bottom: 0;
-}
-
 #result{
     margin-top: 0px;
 }
 
 #query{
+    margin-bottom: 0;
     border-top-left-radius: 10%;
 }
 
@@ -55,12 +52,12 @@ html , body{
 
 button{
     font-weight: 500;
-    border-radius: 10%;
+    border-radius: 8%;
     font-size: 180%;
     margin: 5px;
     color: white;
     background: rgba(0,0,0,0.6);
-    box-shadow: 3px 3px rgba(0,0,0,1);
+    box-shadow: 4px 4px rgba(0,0,0,1);
     outline: none;
 }
 
